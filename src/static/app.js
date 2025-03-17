@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
           <hr>
           <p><strong>Current Participants:</strong></p>
-          <div class="participants-badges">
+          <div class="participant-badges">
             ${details.participants.map(participant => `<span class="badge">${participant}</span>`).join("")}
           </div>
         `;
